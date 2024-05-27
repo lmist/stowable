@@ -1,0 +1,53 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.activityBar.location": "top",
+    "search.maxResults": 100000,
+    "editor.multiCursorLimit": 100000,
+    "[sql]": {
+        "editor.defaultFormatter": "ms-mssql.mssql"
+    },
+    "window.zoomLevel": -1,
+    "jupyter.askForKernelRestart": false,
+    "vim.foldfix": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": false,
+    "vim.hlsearch": true,
+    "editor.cursorBlinking": "solid",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "workbench.startupEditor": "none",
+    "terminal.integrated.fontSize": 24,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prisma.showPrismaDataPlatformNotification": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "editor.lineHeight": 0,
+    "editor.fontSize": 18
+}

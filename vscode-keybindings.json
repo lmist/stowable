@@ -1,0 +1,18 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Fold With Tab
+    // {
+    //     "key": "tab", "command": "editor.fold", "when": "editorTextFocus && foldingEnabled && vim.active && vim.mode != 'Insert'"
+    // },
+    // Promote Markdown Heading
+    { "key": "shift+up",          "command": "markdown.extension.editing.toggleHeadingDown",
+                                     "when": "vim.active && vim.mode != 'Insert' && editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/" },
+    // Demote Markdown Heading
+    { "key": "shift+down",          "command": "markdown.extension.editing.toggleHeadingUp",
+                                    "when": "vim.active && vim.mode != 'Insert' && editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+                                },
+                                {
+                                    "key": "ctrl+alt+p",
+                                    "command": "editor.action.peekTypeDefinition"
+                                },
+]
