@@ -2,6 +2,13 @@
 
 import {$} from 'bun'
 
+try {
+
+await stopKomorebi()
+} catch (err) {
+	console.log("failed to stop, it might not be running")
+}
+
 await startKomorebi()
 
 

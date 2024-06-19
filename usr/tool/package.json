@@ -1,0 +1,18 @@
+{
+    "bin": {
+        "tool": "./index.ts"
+    },
+    "name": "tool",
+    "module": "index.ts",
+    "type": "module",
+    "devDependencies": {
+        "@types/bun": "latest",
+        "@types/yargs": "^17.0.32"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "yargs": "^17.7.2"
+    }
+}
