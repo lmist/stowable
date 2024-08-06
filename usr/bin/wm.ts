@@ -3,6 +3,7 @@
 import {$} from 'bun'
 
 try {
+    console.log("stopping wm")
     await stopKomorebi()
 } catch (err) {
     console.log("failed to stop, it might not be running")
@@ -16,5 +17,6 @@ async function startKomorebi() {
 }
 
 async function stopKomorebi() {
-    const {stdout, stderr} = await $`taskkill /f /im komorebi.exe; taskkill /f /im whkd.exe`.quiet()
+const {stdout, stderr} = await $`wmic process where "name='komorebi.exe'" delete && \
+wmic process where "name='whkd.exe'" delete`.quiet()
 }

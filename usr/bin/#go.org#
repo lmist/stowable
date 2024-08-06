@@ -1,0 +1,19 @@
+#+TITLE: org20240805105913
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style1.css" />
+
+#+SETUP_FILE: ./yay/header.config
+* Start Komorebi Window Manager
+  #+name: start-komorebi
+  #+begin_src shell :results output
+  bun wm.ts
+  #+end_src
+
+  #+RESULTS: start-komorebi
+  : Microsoft Windows [Version 10.0.22631.3958]
+  : (c) Microsoft Corporation. All rights reserved.
+  : 
+  : c:\Users\lmisto\code\etc\stowable\usr\bin>bun wm.ts
+  : failed to stop, it might not be running
+  : 
+  : c:\Users\lmisto\code\etc\stowable\usr\bin>
